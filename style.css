@@ -1,0 +1,106 @@
+#container{display:flex;
+font-size: 35px;
+font-family: sans-serif;
+background-color:rgb(235, 8, 243);
+border: 12px solid rgb(253, 6, 191);
+padding:4px;
+justify-content:center;
+text-decoration: none;
+margin:0px;}
+
+a{text-decoration: none;}
+
+.nav{margin:15px;
+margin-right: 90px;
+text-decoration: none;}
+
+#home{
+/*border : 2px solid black;
+/*background-color: rgb(54, 150, 114);*/
+font-size: 35px;
+font-family: cursive;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+margin-top:50px;
+margin-left:75px;
+margin-right:75px;}
+
+#image1{border-radius: 50%;
+height: 250px;}
+
+.abc{font-size: 60px;
+text-align:center;
+}
+#abd{font-size:35px;}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+/*border: 2px solid #070be7;*/
+border-radius: 25px;
+color: #d4e6d4;
+background-color:#0f0be7;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.btn:hover {
+/*background-color: #d4e6d4;*/
+color: #070be7;
+font-weight:bolder
+}
+
+#about_me{
+display:inline-block;
+font-size:35px;
+/*background-color:rgb(15, 214, 8);*/
+margin-top:50px;
+margin-left:75px;
+margin-right:75px;
+padding:50px;
+}
+
+#education{
+font-size:35px;
+/*background-color: chocolate;*/
+margin-top:50px;
+margin-left:75px;
+margin-right:75px;
+padding:50px;
+}
+
+#projects{
+font-size:35px;
+/*background-color: rgb(234, 247, 53);*/
+margin-top:50px;
+margin-left:75px;
+margin-right:75px;
+padding:50px;
+}
+
+.proj{margin:40px;
+padding:20px;
+/*background-color: rgb(235, 204, 167);*/
+border-radius: 40px;}
+
+#contact{
+font-size:35px;
+height:300px;
+/*background-color: rgb(207, 199, 126);*/
+margin-top:50px;
+margin-left:75px;
+margin-right:75px;
+padding:20px;
+}
+
+body{background-image: url(https://image-processor-storage.s3.us-west-2.amazonaws.com/images/a3627d6c1e59636360b65d5707db2e61/abstract-rose-quarz-pink-fusia-background.jpg);
+background-size: cover;}
+
+#container{background-image: url(https://image-processor-storage.s3.us-west-2.amazonaws.com/images/a3627d6c1e59636360b65d5707db2e61/abstract-rose-quarz-pink-fusia-background.jpg);
+background-size: cover;}
+
+h2{font-weight: bolder;
+font-family:Georgia, 'Times New Roman', Times, serif
+font-size:80px;}
